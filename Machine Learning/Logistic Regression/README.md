@@ -28,6 +28,13 @@ Pandas
 
 Scikit-learn
 
+## 📦 Requirements
+
+Install dependencies using:
+
+pip install -r requirements.txt
+
+
 📊 Dataset Description
 
 A synthetic dataset of 10 students is used with the following columns:

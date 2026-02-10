@@ -22,6 +22,13 @@ Matplotlib
 
 Scikit-learn
 
+## 📦 Requirements
+
+Install dependencies using:
+
+pip install -r requirements.txt
+
+
 📊 Dataset Description
 
 The dataset is defined as a 2D NumPy array:
