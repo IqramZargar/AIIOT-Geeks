@@ -119,8 +119,9 @@ EDA-PROJECT-ON-TitanicDS/
 
 ### Step 1 — Clone Repository
 ```bash
-git clone https://github.com/IqramZargar/AIIOT-Geeks/Basic%20ML/EDA-Project-on-Titanic-Dataset
-cd titanic-eda
+git clone https://github.com/IqramZargar/AIIOT-Geeks
+cd Basic ML
+cd EDA-Project-on-Titanic-Dataset
 
 Step 2 — Create Virtual Environment
 python -m venv venv
