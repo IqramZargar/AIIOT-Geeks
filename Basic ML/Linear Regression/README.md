@@ -1,33 +1,40 @@
-🏠 House Price Prediction Using Linear Regression
+# 🏠 House Price Prediction Using Linear Regression
 
-This project demonstrates Simple Linear Regression using a 2D NumPy array to predict house prices based on area (in square feet). It also evaluates model performance and visualizes the regression line.
+This project demonstrates **Simple Linear Regression** using a 2D NumPy array to predict house prices based on area (in square feet).  
+It also evaluates model performance and visualizes the regression line.
 
-📌 Project Overview
+---
 
-The goal is to predict house price (in Lakhs) using:
+## 📌 Project Overview
 
-Input Feature: Area of the house (sqft)
+The goal is to predict **house price (in Lakhs)** using:
 
-Output Target: Price (Lakhs)
+- **Input Feature:** Area of the house (sqft)
+- **Output Target:** Price (Lakhs)
 
-The model is trained using Scikit-learn’s LinearRegression and evaluated using standard regression metrics.
+The model is trained using **Scikit-learn’s LinearRegression** and evaluated using standard regression metrics.
 
-🛠️ Technologies Used
+---
 
-Python
+## 🛠️ Technologies Used
 
-NumPy
+- Python
+- NumPy
+- Matplotlib
+- Scikit-learn
 
-Matplotlib
-
-Scikit-learn
+---
 
 ## 📦 Requirements
 
 Install dependencies using:
 
+```bash
 pip install -r requirements.txt
 
+Or install manually:
+
+pip install numpy matplotlib scikit-learn
 
 📊 Dataset Description
 
@@ -44,32 +51,35 @@ Area (sqft)	Price (Lakhs)
 2500	90
 2800	100
 3000	110
-⚙️ Program Workflow
 
-Create Dataset
+⚠️ This is a small synthetic dataset created for learning purposes.
+
+⚙️ Program Workflow
+1️⃣ Create Dataset
+
 Data is stored as a 2D NumPy array.
 
-Split Features and Target
+2️⃣ Split Features and Target
 
 X → Area (independent variable)
 
 y → Price (dependent variable)
 
-Train-Test Split
+3️⃣ Train-Test Split
 
 80% Training data
 
 20% Testing data
 
-Train Linear Regression Model
+4️⃣ Train Linear Regression Model
 
-Learns the best-fit line from training data
+The model learns the best-fit line from the training data.
 
-Make Predictions
+5️⃣ Make Predictions
 
-Predicts house prices for test data
+Predicts house prices for the test dataset.
 
-Evaluate Model
+6️⃣ Evaluate Model
 
 Intercept
 
@@ -79,20 +89,20 @@ Mean Squared Error (MSE)
 
 R² Score
 
-Visualization
+7️⃣ Visualization
 
-Scatter plot of data points
+Scatter plot of actual data points
 
 Regression best-fit line
 
 ▶️ How to Run the Program
 
-Install required libraries:
+1️⃣ Install required libraries:
 
 pip install numpy matplotlib scikit-learn
 
 
-Run the Python file:
+2️⃣ Run the Python file:
 
 python linear_regression_2d.py
 
@@ -108,19 +118,21 @@ MSE: 4.82
 R2: 0.98
 
 
-(Values may vary due to train-test split)
+Values may vary due to train-test split randomness.
 
 📈 Visualization Output
 
-Scatter plot showing actual data points
+The output graph shows:
 
-Straight line representing the regression fit
+🔵 Scatter plot of actual house prices
+
+🔴 Straight regression line representing best fit
 
 ⚠️ Notes
 
-This is a simple linear regression with one feature.
+This is Simple Linear Regression with only one feature.
 
-Dataset is small and synthetic (for learning purposes).
+Dataset is small and synthetic.
 
 Assumes a linear relationship between area and price.
 
@@ -128,18 +140,28 @@ Assumes a linear relationship between area and price.
 
 Use real housing datasets
 
-Add multiple features (bedrooms, location, etc.)
+Add multiple features (bedrooms, location, age of house, etc.)
 
 Compare with Polynomial Regression
 
-Save trained model for reuse
+Save trained model using joblib or pickle
+
+Deploy as a simple web app
 
 📚 Learning Outcomes
 
-Understanding Linear Regression
+By completing this project, you will understand:
 
-Working with 2D NumPy arrays
+✔️ How Linear Regression works
 
-Model evaluation using MSE & R²
+✔️ Working with 2D NumPy arrays
 
-Data visualization with Matplotlib
+✔️ Train-test splitting
+
+✔️ Model evaluation using MSE & R²
+
+✔️ Data visualization with Matplotlib
+
+👨‍💻 Author
+
+Muhammad Iqram
