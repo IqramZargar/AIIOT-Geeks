@@ -41,7 +41,7 @@ pip install numpy matplotlib scikit-learn
 The dataset is defined as a 2D NumPy array:
 
 Area (sqft)	Price (Lakhs)
-800	30
+800	  30
 1000	38
 1200	45
 1500	55
