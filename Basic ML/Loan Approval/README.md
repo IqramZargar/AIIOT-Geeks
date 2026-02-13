@@ -52,6 +52,11 @@ Loan Approval/
 
 ---
 
+## 📁 Dataset Files
+
+train.csv → Used for analysis
+test.csv → Optional (included for completeness)
+
 ## 📁 Dataset Description
 
 The dataset contains applicant information such as:
@@ -224,3 +229,4 @@ Muhammad Iqram
 - Exploratory data analysis
 - Model evaluation strategies
 - End-to-end ML project development
+
