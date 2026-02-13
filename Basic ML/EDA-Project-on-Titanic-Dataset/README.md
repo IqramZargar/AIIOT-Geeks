@@ -119,7 +119,7 @@ EDA-PROJECT-ON-TitanicDS/
 
 ### Step 1 — Clone Repository
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/IqramZargar/AIIOT-Geeks/Basic%20ML/EDA-Project-on-Titanic-Dataset
 cd titanic-eda
 
 Step 2 — Create Virtual Environment
