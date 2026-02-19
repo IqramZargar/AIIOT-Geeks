@@ -56,7 +56,7 @@ Project code (Jupyter Notebook / Python scripts)
 
 Dataset (if applicable)
 
-README with detailed project description, instructions, and screenshots
+README with detailed project description, and instructions
 
 Contact
 Muhammad Iqram
