@@ -1,5 +1,11 @@
 # Muhammad Iqram - Machine Learning Projects
 
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![GitHub](https://img.shields.io/badge/GitHub-IqramZargar-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IqramZargar)
+
 Welcome to my **Machine Learning & AI Projects Portfolio**!  
 This repository contains a collection of beginner to advanced machine learning projects, ranging from simple linear regression to deep learning and NLP-based applications. Each project is designed for learning, experimentation, and real-world applications.
 
@@ -7,14 +13,14 @@ This repository contains a collection of beginner to advanced machine learning p
 
 ## Projects Overview
 
-| Project | Description | Key Features |
-|---------|-------------|--------------|
-| **Linear Regression** | Predicts house prices based on area using Simple Linear Regression. | 2D NumPy dataset, train-test split, MSE & R² evaluation, regression line visualization. |
-| **Logistic Regression** | Predicts student placement based on analytical, communication, and academic skills. | Binary classification, synthetic dataset, real-time user input, performance metrics. |
-| **EDA on Titanic Dataset** | Explores passenger characteristics and survival patterns on Titanic dataset. | Dataset overview, missing value analysis, univariate & bivariate analysis, visualizations. |
-| **Loan Approval (ML)** | Predicts loan approval based on financial and demographic data. | Binary classification, feature engineering, Logistic Regression & Random Forest, deployable model. |
-| **Loan Approval (Deep Learning)** | Predicts loan approval using neural networks. | TensorFlow/Keras, preprocessing, feature scaling, advanced evaluation metrics, neural network architecture. |
-| **Sentiment Analysis on Movie Reviews** | Classifies movie reviews as Positive or Negative using NLP. | TF-IDF vectorization, Logistic Regression, Streamlit deployment, text preprocessing, evaluation metrics. |
+| Project | Description | Key Features | GitHub Link |
+|---------|-------------|--------------|-------------|
+| **Linear Regression** | Predicts house prices based on area using Simple Linear Regression. | 2D NumPy dataset, train-test split, MSE & R² evaluation, regression line visualization. | [Repo](https://github.com/IqramZargar/AIIOT-Geeks/tree/main/Basic%20ML/Linear%20Regression) |
+| **Logistic Regression** | Predicts student placement based on analytical, communication, and academic skills. | Binary classification, synthetic dataset, real-time user input, performance metrics. | [Repo](https://github.com/IqramZargar/AIIOT-Geeks/tree/main/Basic%20ML/Logistic%20Regression) |
+| **EDA on Titanic Dataset** | Explores passenger characteristics and survival patterns on Titanic dataset. | Dataset overview, missing value analysis, univariate & bivariate analysis, visualizations. | [Repo](https://github.com/IqramZargar/AIIOT-Geeks/tree/main/Basic%20ML/EDA-Project-on-Titanic-Dataset) |
+| **Loan Approval (ML)** | Predicts loan approval based on financial and demographic data. | Binary classification, feature engineering, Logistic Regression & Random Forest, deployable model. | [Repo](https://github.com/IqramZargar/AIIOT-Geeks/tree/main/Basic%20ML/Loan%20Approval) |
+| **Loan Approval (Deep Learning)** | Predicts loan approval using neural networks. | TensorFlow/Keras, preprocessing, feature scaling, advanced evaluation metrics, neural network architecture. | [Repo](https://github.com/IqramZargar/AIIOT-Geeks/tree/main/Advance%20ML/loan_approval_DL) |
+| **Sentiment Analysis on Movie Reviews** | Classifies movie reviews as Positive or Negative using NLP. | TF-IDF vectorization, Logistic Regression, Streamlit deployment, text preprocessing, evaluation metrics. | [Repo](https://github.com/IqramZargar/AIIOT-Geeks/tree/main/Advance%20ML/sentiment_analysis_movie_review) |
 
 ---
 
@@ -39,7 +45,7 @@ Libraries & Frameworks: NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn, Tensor
 Environments: Jupyter Notebook, Google Colab
 
 Project Structure
-AIIOT-Geeks/
+AIIOT-GEEKS/
 │
 ├── Basic ML/
 │   ├── Linear Regression/
@@ -48,8 +54,8 @@ AIIOT-Geeks/
 │   └── Loan Approval/
 │
 └── Advance ML/
-    ├── Loan Approval (DL)/
-    └── Sentiment Analysis on Movie Reviews/
+    ├── loan_approval_DL/
+    └── sentiment_analysis_on_movie_reviews/
 Each folder contains:
 
 Project code (Jupyter Notebook / Python scripts)
@@ -60,5 +66,7 @@ README with detailed project description, and instructions
 
 Contact
 Muhammad Iqram
+
+GitHub: IqramZargar
 
 Email: iqramzargar@gmail.com
